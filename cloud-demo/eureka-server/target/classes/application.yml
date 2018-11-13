@@ -1,0 +1,12 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: eureka-server
+eureka:
+  client:
+    service-url: # 使用 Map 配置文件
+      defaultZone: http://127.0.0.1:8082/eureka
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
