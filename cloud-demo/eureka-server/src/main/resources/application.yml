@@ -6,7 +6,7 @@ spring:
 eureka:
   client:
     service-url: # 使用 Map 配置文件
-      defaultZone: http://127.0.0.1:8082/eureka
+      defaultZone: http://127.0.0.1:8083/eureka
   instance:
     prefer-ip-address: true
     ip-address: 127.0.0.1
