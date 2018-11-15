@@ -16,6 +16,7 @@ public class Controller {
 
     @GetMapping("{id}")
     public User hello(@PathVariable("id") Long id){
+
         return userService.selectUser(id);
     }
 }
