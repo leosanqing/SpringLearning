@@ -10,6 +10,8 @@
         <module>user-service</module>
         <module>consumer-demo</module>
         <module>eureka-server</module>
+        <module>gateway</module>
+        <module>Zuul-demo</module>
     </modules>
     <packaging>pom</packaging>
 
