@@ -1,8 +1,0 @@
-server:
-  port: 8100
-zuul:
-  routes:
-    haha:
-      path:
-        /user-service/**
-      url: 
